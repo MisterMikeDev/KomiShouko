@@ -1,0 +1,26 @@
+div.Header {
+    background-color: rgba(22, 22, 22, 0.735);
+    border-radius: 15px;
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+    overflow: auto;
+}
+
+div.Links {
+    padding: 15px;
+}
+
+a.Link {
+    border-bottom: #fff solid 2px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: all 250ms ease-out;
+}
+
+a.Link:hover {
+    border-bottom: rgb(132, 0, 255) solid 2px;
+    color: rgb(243, 180, 255);
+}
